@@ -17,16 +17,16 @@ class App extends Component {
         title='Simple React Card'
         subtitle='A simple card container implementation with as minimal design as possible for your needs'>
 
-        <div className='col-xs-10 main-container'>
+        <div className='col-lg-10 col-xs-12 main-container no-padding'>
 
-          <section className='col-xs-12'>
+          <section className='col-xs-12 no-padding'>
             <h1 className='section-title'>Installation</h1>
             <div className='src-code'>
               <p>npm install simple-react-card --save</p>
             </div>
           </section>
 
-          <section className='col-xs-12'>
+          <section className='col-xs-12 no-padding'>
             <h1 className='section-title'>Usage</h1>
           </section>
 

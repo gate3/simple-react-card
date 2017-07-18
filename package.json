@@ -1,6 +1,6 @@
 {
   "name": "simple-react-card",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0-rc.3",
   "description": "simple-react-card is a React component that provides you with a simple material design card. Its simple, flexible and at thesame time advanced enough for use.",
   "bugs": {
     "url": "https://github.com/gate3/simple-react-card/issues",

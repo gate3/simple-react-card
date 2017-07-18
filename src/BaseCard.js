@@ -27,10 +27,10 @@ export default class BaseCard extends Component {
     const header = this.props.header
     if (header != null) {
       const imgAndTitle = (<div className='row header'>
-        <div className='col-xs-2'>
+        <div className='col-xs-3'>
           <img src={header.image || null} className='header-img' alt='test' />
         </div>
-        <div className='col-xs-10 no-padding header-title'>
+        <div className='col-xs-9 no-padding header-title'>
           <h3 className='no-margin'>{header.title || null}</h3>
           <h4 className='no-margin subtitle'>{header.subtitle || null}</h4>
         </div>
