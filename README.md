@@ -10,7 +10,7 @@ Simple-react-card is a React component that provides you with a simple material 
 
 ## Code Example
 
-Checkout the [Demo](https://github.com/gate3/simple-react-card/) for code examples
+Checkout the [Demo](https://octo.azurewebsites.net/doyin/simple-react-card-demo) for code examples or the view the [Api Here](https://gate3.github.io/simple-react-card/).
 
 ## Installation
 
