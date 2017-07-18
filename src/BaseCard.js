@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './css/Card.css'
+import './css/bootstrap.min.css'
 import PropTypes from 'prop-types'
 
 export default class BaseCard extends Component {
@@ -29,7 +30,7 @@ export default class BaseCard extends Component {
         <div className='col-xs-2'>
           <img src={header.image || null} className='header-img' alt='test' />
         </div>
-        <div className='col-xs-10 pull-left no-padding'>
+        <div className='col-xs-10 no-padding header-title'>
           <h3 className='no-margin'>{header.title || null}</h3>
           <h4 className='no-margin subtitle'>{header.subtitle || null}</h4>
         </div>
@@ -76,7 +77,7 @@ export default class BaseCard extends Component {
     const btn = this.props.buttons
     if (btn != null && btn.length > 0) {
       const width = (this.props.verticalButtons ? 12 : (12 / btn.length))
-      return this.props.buttons.map((b, i) => <div className={'no-padding col-xs-' + width}>{b}</div>)
+      return this.props.buttons.map((b, i) => <div key={i} className={'no-padding col-xs-' + width}>{b}</div>)
     } else {
       return null
     }

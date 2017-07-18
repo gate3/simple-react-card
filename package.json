@@ -1,9 +1,18 @@
 {
   "name": "simple-react-card",
-  "version": "1.0.0",
-  "description": "react-card React component",
+  "version": "1.0.0-rc.2",
+  "description": "simple-react-card is a React component that provides you with a simple material design card. Its simple, flexible and at thesame time advanced enough for use.",
+  "bugs": {
+    "url": "https://github.com/gate3/simple-react-card/issues",
+    "email": "doyinolarewaju@gmail.com"
+  },
+  "author": "",
   "main": "lib/index.js",
   "module": "es/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gate3/simple-react-card"
+  },
   "files": [
     "css",
     "es",
@@ -19,8 +28,7 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
-    "prop-types": "^15.5.10",
-    "super-simple-flex-grid-react": "^1.0.9"
+    "prop-types": "^15.5.10"
   },
   "peerDependencies": {
     "react": "15.x"
@@ -30,7 +38,6 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
-  "author": "",
   "homepage": "",
   "license": "MIT",
   "repository": "",

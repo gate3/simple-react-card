@@ -15,10 +15,10 @@ img.header-img{
     border-radius: 50%;
 }
 .no-padding{
-    padding: 0px;
+    padding: 0px!important;
 }
 .no-margin{
-    margin:0px;
+    margin:0px!important;
 }
 .subtitle{
     color: #ccc;
@@ -32,10 +32,15 @@ img.small-media{
 }
 .media-spacing{
     margin-bottom: 10px;
+    text-align: -webkit-auto;
 }
 .header{
     margin-bottom: 5px;
     padding: 10px;
+    text-align: auto;
+}
+.header-title{
+    text-align: -webkit-auto;
 }
 .btn{
     border-radius: 0px !important;

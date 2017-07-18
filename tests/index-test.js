@@ -1,4 +1,4 @@
-import expect from 'expect'
+/*import expect from 'expect'
 import React from 'react'
 import {render, unmountComponentAtNode} from 'react-dom'
 
@@ -20,4 +20,4 @@ describe('Component', () => {
       expect(node.innerHTML).toContain('Welcome to React components')
     })
   })
-})
+})*/
